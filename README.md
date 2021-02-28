@@ -21,8 +21,8 @@ An optimization algorithm called augmented direction method of multipliers is us
 Then by ADMM we can derive the worker’s and master’s algorithms, where z is denoted as the global model and u is the dual variable from ADMM:
 
 <p align="center">
-    <img src="/img/worker_algorithm.png" width="500"/>
-    <img src="/img/master_algorithm.png" width="500"/>
+    <img src="/img/worker_algorithm.png" width="550"/>
+    <img src="/img/master_algorithm.png" width="550"/>
 </p>
 
 We can illustrate the idea of FPCA by the toy example below:
