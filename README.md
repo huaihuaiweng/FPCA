@@ -18,8 +18,8 @@ An optimization algorithm called augmented direction method of multipliers is us
 Then by ADMM we can derive the worker’s and master’s algorithms, where z is denoted as the global model and u is the dual variable from ADMM:
 
 <p align="center">
-  <img width="50%" height="50%" src="/img/worker_alorithm.png">
-  <img width="50%" height="50%" src="/img/worker_alorithm.png">
+  <img width="50%" height="50%" src="/img/worker_algorithm.png">
+  <img width="50%" height="50%" src="/img/worker_algorithm.png">
 </p>
 
 III. EXperiments
