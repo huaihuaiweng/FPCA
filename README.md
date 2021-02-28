@@ -28,8 +28,8 @@ Then by ADMM we can derive the worker’s and master’s algorithms, where z is 
 We can illustrate the idea of FPCA by the toy example below:
 
 <p align="center">
-    <img src="/img/toy_iter0.png" width="400"/>
-    <img src="/img/toy_iter10.png" width="400"/>
+    <img src="/img/toy_iter0.png" width="450"/>
+    <img src="/img/toy_iter10.png" width="450"/>
 </p>
 
 In the toy example, there are 10 workers each having their own share of data. The dots scattered on the plot is the global data, assuming not seen by all the workers. The thick yellow line represents the first global PC and the other 10 lines stand for the first PCs calculated by each worker. At the begining (iter = 0), it can be observed that the PC each worker initialzes is stretching toward differnt direction from each other. However, at iteration 10 the workers already seem to reach a consensus solution without seeing the whole data throughout the whole process. 
