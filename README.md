@@ -7,7 +7,10 @@ a given data set in a distributed fashion where there are several workers (distr
 master (data center). This framework is called federated learning, which allows a user to attain the global
 model without sharing the data among the local workers. This idea is essential in protecting data privacy.
 
-![worker-master_scenario](/img/master-worker_scenario.jpg)
+<p align="center">
+  <img width="50%" height="50%" src="/img/master-worker_scenario.jpg">
+</p>
+
 
 II. Method
 
