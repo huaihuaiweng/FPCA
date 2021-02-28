@@ -19,7 +19,7 @@ Then by ADMM we can derive the worker’s and master’s algorithms, where z is 
 
 <p align="center">
   <img width="50%" height="50%" src="/img/worker_algorithm.png">
-  <img width="50%" height="50%" src="/img/worker_algorithm.png">
+  <img width="50%" height="50%" src="/img/master_algorithm.png">
 </p>
 
 III. EXperiments
