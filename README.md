@@ -20,12 +20,14 @@ An optimization algorithm called augmented direction method of multipliers is us
 
 Then by ADMM we can derive the worker’s and master’s algorithms, where z is denoted as the global model and u is the dual variable from ADMM:
 
-<p align="center">
-  <img width="50%" height="50%" src="/img/worker_algorithm.png">
-  <img width="50%" height="50%" src="/img/master_algorithm.png">
-</p>
+<center class="half">
+    <img src="/img/worker_algorithm.png" width="40%"/><img src="/img/master_algorithm.png" width="40%"/>
+</center>
 
-III. EXperiments
+III. Experiments
 
 Then we compare our FPCA method to the SVD method, which is currently the most common way to find PCs. The evaluation metric is the cosine similarity between the first PC we derived by FPCA and the one by SVD. Each experiment is repeated 10 times and presented in the convergence plots below:
 
+<center class="half">
+    <img src="/img/exp_pc1_10.png" width="40%"/>
+</center>
